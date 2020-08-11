@@ -1,2 +1,3 @@
 # DevBoost
-Curso do DevBoost
+Curso
+
