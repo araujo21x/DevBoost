@@ -9,6 +9,7 @@ const server = http.createServer((request, response) => {
       response.writeHead(statusCode, { 'Content-Type': 'application/json' });
       response.end(JSON.stringify(body));
    }
+   
    const parseUrl = url.parse(request.url, true);
    let { pathname } = parseUrl;
    let id = null
